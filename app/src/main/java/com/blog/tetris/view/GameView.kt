@@ -5,7 +5,7 @@ import android.graphics.*
 import android.util.AttributeSet
 import android.util.Log
 import android.view.View
-import com.blog.tetris.Operation
+import com.blog.tetris.operation.Operation
 
 class GameView : View {
 
@@ -63,7 +63,7 @@ class GameView : View {
 
         val edge = boxSize / 4F
 
-        val mapArr = Operation.getMapArr()
+        val mapArr = Operation.gameMap
         for (i in mapArr.indices) {
 
             for (j in mapArr[i].indices) {

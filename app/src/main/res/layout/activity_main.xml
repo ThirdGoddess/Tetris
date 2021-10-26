@@ -20,22 +20,16 @@
 
     </LinearLayout>
 
-    <LinearLayout
+    <com.blog.tetris.view.GameView
+        android:id="@+id/gameView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="600dp" />
 
-        <com.blog.tetris.view.GameView
-            android:id="@+id/gameView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
-    </LinearLayout>
-
-    <LinearLayout
+    <TextView
+        android:id="@+id/playGame"
         android:layout_width="match_parent"
-        android:background="#C68F2E"
-        android:layout_height="match_parent" />
-
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="开始游戏" />
 
 </LinearLayout>
