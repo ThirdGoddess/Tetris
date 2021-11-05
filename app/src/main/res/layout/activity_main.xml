@@ -23,12 +23,13 @@
     <com.blog.tetris.view.GameView
         android:id="@+id/gameView"
         android:layout_width="match_parent"
-        android:layout_height="600dp" />
+        android:layout_height="0dp"
+        android:layout_weight="1" />
 
     <TextView
         android:id="@+id/playGame"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="60dp"
         android:gravity="center"
         android:text="开始游戏" />
 
